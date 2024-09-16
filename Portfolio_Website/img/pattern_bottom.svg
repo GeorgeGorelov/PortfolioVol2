@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470.19 470.77">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #efeded;
+      }
+
+      .cls-2 {
+        opacity: .43;
+      }
+
+      .cls-3 {
+        fill: #3f4042;
+      }
+
+      .cls-4 {
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="-.1" y="0" width="470.38" height="472.65"/>
+  <g class="cls-4">
+    <g class="cls-2">
+      <rect class="cls-3" x="313.34" y=".6" width=".19" height="470.19"/>
+    </g>
+    <g class="cls-2">
+      <rect class="cls-3" x="470.08" y=".6" width=".19" height="470.16"/>
+    </g>
+    <g class="cls-2">
+      <rect class="cls-3" x="156.61" y=".6" width=".19" height="470.17"/>
+    </g>
+    <g class="cls-2">
+      <rect class="cls-3" x="-.08" y="313.88" width="470.16" height=".19"/>
+    </g>
+    <g class="cls-2">
+      <rect class="cls-3" x="-.08" y=".41" width="470.35" height=".19"/>
+    </g>
+    <g class="cls-2">
+      <rect class="cls-3" x="-.08" y="157.14" width="470.16" height=".19"/>
+    </g>
+    <g class="cls-2">
+      <rect class="cls-3" x="-.04" y="-.02" width="470.3" height=".19"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" class="overFlowX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+
+    <script src="js/jsMain.js" defer></script>
+    <script src="js/jsHome.js" defer></script>
+  </head>
+  <body class="overFlowX">
+    <div class="wrapper posRel">
+      <nav>
+        <a href="index.html">
+          <img src="img/logo.svg" alt="Logo" class="logo_nav" />
+        </a>
+
+        <div class="navbar">
+          <ul class="navbarList">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="portfolioDropdown">
+              <a href="#">Portfolio <img src="img/carrot.svg" alt="arrow" /></a>
+              <ul class="dropdown">
+                <li><a href="#">Web</a></li>
+                <li><a href="#">Graphic</a></li>
+              </ul>
+            </li>
+            <li><a href="google.com ">About</a></li>
+            <li class="active"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Hamburger  Menu -->
+      <div class="off-screen-menu">
+        <ul class="navbar-hamburger">
+          <li class="link_active_ham"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="arrow">
+            <a href="#" id="ham-drop-open"
+              >Portfolio <img src="img/arrow.svg" alt="Arrow"
+            /></a>
+            <ul class="dropdown-menu" id="hamburger-dropdown">
+              <li><a href="web_portfolio.html">Web</a></li>
+              <li><a href="Graphic_portfolio.html">Graphic</a></li>
+              <li><a href="Motion_portfolio.html">Motion</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <nav>
+        <div class="ham-menu">
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+
+      <div class="flexContainer intro">
+        <div class="innerContainer introText">
+          <h3 class="introHeader">George Gorelov</h3>
+          <h6 class="introSubHeader">Web Designer</h6>
+          <p class="copy">
+            College-graduate Web Designer with a skill for bringing ideas to
+            life. Fluent in designing software such as
+            <span class="accent"> Figma</span>,
+            <span class="accent"> AdobeXD</span>,
+            <span class="accent"> Photoshop</span>,
+            <span class="accent"> Illustrator</span>. Able to code on
+            <span class="accent"> HTML</span>, <span class="accent"> CSS</span>,
+            and <span class="accent"> JavaScript</span>. I translate your ideas
+            to a screen!
+          </p>
+
+          <div class="introIcons media_icons flexContainer">
+            <a href="#">
+              <img src="img/media_icons/icn_linkn.svg" alt="icon_linkedIn"
+            /></a>
+            <a href="#">
+              <img src="img/media_icons/icn_inst.svg" alt="icon_instagram" />
+            </a>
+            <a href="#"
+              ><img src="img/media_icons/icn_behance.svg" alt="icon_behance"
+            /></a>
+            <a href="#">
+              <img src="img/media_icons/icn_githb.svg" alt="icon_gitHub"
+            /></a>
+          </div>
+        </div>
+
+        <div class="intro_img">
+          <img src="img/hm_Intro.png" alt="MyPortrait" />
+        </div>
+      </div>
+      <!-- web Projects -->
+
+      <h1 class="heading">Web Projects</h1>
+      <div class="flexContainer homeProjects homeWeb">
+        <a href="#">
+          <div class="card">
+            <div class="cardWrapper flexContainer">
+              <div class="cardImg">
+                <img
+                  src="img/projects/Meadow_Park/Meadow_Park_SP.jpg"
+                  alt="Meadow Park Card"
+                />
+              </div>
+              <div class="cardText flexContainer">
+                <div class="cardDescription flexContainer">
+                  <h5 class="hmHardHeader">Clown Phobia</h5>
+                  <p>Escape Horror Room</p>
+                </div>
+                <div class="cardArrow">
+                  <img src="img/card-arrow.svg" alt="Arrow" />
+                </div>
+              </div>
+            </div></div
+        ></a>
+        <a href="#">
+          <div class="card">
+            <div class="cardWrapper flexContainer">
+              <div class="cardImg">
+                <img
+                  src="img/projects/Meadow_Park/Meadow_Park_SP.jpg"
+                  alt="Meadow Park Card"
+                />
+              </div>
+              <div class="cardText flexContainer">
+                <div class="cardDescription flexContainer">
+                  <h5 class="hmHardHeader">Clown Phobia</h5>
+                  <p>Escape Horror Room</p>
+                </div>
+                <div class="cardArrow">
+                  <img src="img/card-arrow.svg" alt="Arrow" />
+                </div>
+              </div>
+            </div></div
+        ></a>
+
+        <a href="#">
+          <div class="card">
+            <div class="cardWrapper flexContainer">
+              <div class="cardImg">
+                <img
+                  src="img/projects/Meadow_Park/Meadow_Park_SP.jpg"
+                  alt="Meadow Park Card"
+                />
+              </div>
+              <div class="cardText flexContainer">
+                <div class="cardDescription flexContainer">
+                  <h5 class="hmHardHeader">Clown Phobia</h5>
+                  <p>Escape Horror Room</p>
+                </div>
+                <div class="cardArrow">
+                  <img src="img/card-arrow.svg" alt="Arrow" />
+                </div>
+              </div>
+            </div></div
+        ></a>
+      </div>
+
+      <!-- Graphic Projects -->
+
+      <h1 class="heading">Graphic Projects</h1>
+      <div class="homeGraphicWrapper">
+        <div class="flexContainer homeProjects homeGraphic">
+          <a href="#">
+            <div class="card">
+              <div class="cardWrapper flexContainer">
+                <div class="cardImg">
+                  <img
+                    src="img/projects/Meadow_Park/Meadow_Park_SP.jpg"
+                    alt="Meadow Park Card"
+                  />
+                </div>
+                <div class="cardText flexContainer">
+                  <div class="cardDescription flexContainer">
+                    <h5 class="hmHardHeader">Clown Phobia</h5>
+                    <p>Escape Horror Room</p>
+                  </div>
+                  <div class="cardArrow">
+                    <img src="img/card-arrow.svg" alt="Arrow" />
+                  </div>
+                </div>
+              </div></div
+          ></a>
+          <a href="#">
+            <div class="card">
+              <div class="cardWrapper flexContainer">
+                <div class="cardImg">
+                  <img
+                    src="img/projects/Meadow_Park/Meadow_Park_SP.jpg"
+                    alt="Meadow Park Card"
+                  />
+                </div>
+                <div class="cardText flexContainer">
+                  <div class="cardDescription flexContainer">
+                    <h5 class="hmHardHeader">Clown Phobia</h5>
+                    <p>Escape Horror Room</p>
+                  </div>
+                  <div class="cardArrow">
+                    <img src="img/card-arrow.svg" alt="Arrow" />
+                  </div>
+                </div>
+              </div></div
+          ></a>
+
+          <a href="#">
+            <div class="card">
+              <div class="cardWrapper flexContainer">
+                <div class="cardImg">
+                  <img
+                    src="img/projects/Meadow_Park/Meadow_Park_SP.jpg"
+                    alt="Meadow Park Card"
+                  />
+                </div>
+                <div class="cardText flexContainer">
+                  <div class="cardDescription flexContainer">
+                    <h5 class="hmHardHeader">Clown Phobia</h5>
+                    <p>Escape Horror Room</p>
+                  </div>
+                  <div class="cardArrow">
+                    <img src="img/card-arrow.svg" alt="Arrow" />
+                  </div>
+                </div>
+              </div></div
+          ></a>
+          <a href="#">
+            <div class="card">
+              <div class="cardWrapper flexContainer">
+                <div class="cardImg">
+                  <img
+                    src="img/projects/Meadow_Park/Meadow_Park_SP.jpg"
+                    alt="Meadow Park Card"
+                  />
+                </div>
+                <div class="cardText flexContainer">
+                  <div class="cardDescription flexContainer">
+                    <h5 class="hmHardHeader">Clown Phobia</h5>
+                    <p>Escape Horror Room</p>
+                  </div>
+                  <div class="cardArrow">
+                    <img src="img/card-arrow.svg" alt="Arrow" />
+                  </div>
+                </div>
+              </div></div
+          ></a>
+
+          <div class="hidden-content flexContainer homeProjects homeGraphic">
+            <a href="#">
+              <div class="card">
+                <div class="cardWrapper flexContainer">
+                  <div class="cardImg">
+                    <img
+                      src="img/projects/Meadow_Park/Meadow_Park_SP.jpg"
+                      alt="Meadow Park Card"
+                    />
+                  </div>
+                  <div class="cardText flexContainer">
+                    <div class="cardDescription flexContainer">
+                      <h5 class="hmHardHeader">Clown Phobia</h5>
+                      <p>Escape Horror Room</p>
+                    </div>
+                    <div class="cardArrow">
+                      <img src="img/card-arrow.svg" alt="Arrow" />
+                    </div>
+                  </div>
+                </div></div
+            ></a>
+
+            <a href="#">
+              <div class="card">
+                <div class="cardWrapper flexContainer">
+                  <div class="cardImg">
+                    <img
+                      src="img/projects/Meadow_Park/Meadow_Park_SP.jpg"
+                      alt="Meadow Park Card"
+                    />
+                  </div>
+                  <div class="cardText flexContainer">
+                    <div class="cardDescription flexContainer">
+                      <h5 class="hmHardHeader">Clown Phobia</h5>
+                      <p>Escape Horror Room</p>
+                    </div>
+                    <div class="cardArrow">
+                      <img src="img/card-arrow.svg" alt="Arrow" />
+                    </div>
+                  </div>
+                </div></div
+            ></a>
+          </div>
+        </div>
+        <button class="button reveal-btn">Submit</button>
+      </div>
+
+      <!-- Contact Form -->
+
+      <h1 class="heading">Contact</h1>
+
+      <div class="contactForm">
+        <form
+          target="_blank"
+          action="https://formsubmit.co/4bc8f4c13830635b21e5827cbdfba32a"
+          method="POST"
+        >
+          <div class="formRow flexContainer formFirstRow">
+            <div class="formCol">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                placeholder="Full Name"
+                required
+              />
+            </div>
+
+            <div class="formCol">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="formRow flexContainer formLetter">
+            <label for="message">How Can I Help?</label>
+            <textarea
+              placeholder="How Can I Help?"
+              class="form-control"
+              name="message"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <!-- <button class="custom-button">View the Page</button> -->
+          <button type="submit" class="button">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="fixedFooter">
+      <div class="footerWrapper">
+        <div class="footerRow flexContainer">
+          <a href="index.html" class="logoFooter"
+            ><img src="img/logo_footer.svg" alt="logo Footer"
+          /></a>
+
+          <div class="footerNav">
+            <ul class="navbarList flexContainer">
+              <li><a href="#">Home</a></li>
+              <li class="portfolioDropdown">
+                <a href="#"
+                  >Portfolio <img src="img/carrot.svg" alt="arrow"
+                /></a>
+                <ul class="dropdown">
+                  <li><a href="#">Web</a></li>
+                  <li><a href="#">Graphic</a></li>
+                </ul>
+              </li>
+              <li><a href="google.com ">About</a></li>
+              <li class="active"><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footerRow footerMedia">
+          <a href="#">
+            <img src="img/media_icons/icn_linkn.svg" alt="icon_linkedIn"
+          /></a>
+          <a href="#">
+            <img src="img/media_icons/icn_inst.svg" alt="icon_instagram" />
+          </a>
+          <a href="#"
+            ><img src="img/media_icons/icn_behance.svg" alt="icon_behance"
+          /></a>
+          <a href="#">
+            <img src="img/media_icons/icn_githb.svg" alt="icon_gitHub"
+          /></a>
+        </div>
+
+        <div class="footerRow footerCopyRight">
+          <p>All rights reserved. &copy;2024 George Gorelov</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
